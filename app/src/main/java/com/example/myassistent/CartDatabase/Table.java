@@ -10,6 +10,7 @@ public class Table {
 
     private String question,answer;
     @PrimaryKey
+    @NonNull
     private int id;
 
     public String getQuestion() {
