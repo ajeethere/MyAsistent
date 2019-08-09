@@ -9,6 +9,7 @@ import androidx.room.PrimaryKey;
 public class Table {
 
     private String question,answer;
+    @PrimaryKey
     private int id;
 
     public String getQuestion() {
